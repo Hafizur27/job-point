@@ -17,7 +17,7 @@ const Header = () => {
                 <li><NavLink to='/statistics'>Statistics</NavLink></li>
                 <li><NavLink to='/appliedJob'>Applied Job</NavLink></li>
                 <li><NavLink to='/blog'>Blog</NavLink></li>
-                <button className='btn-primary'>Star Applying</button>
+                <button className='btn-primary'>Start Applying</button>
 
             </ul>
             
