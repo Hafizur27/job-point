@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  ComposedChart,
-  Line,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-} from "recharts";
+import { ComposedChart,Line,Bar,XAxis,YAxis,CartesianGrid,Tooltip,Legend, ResponsiveContainer } from "recharts";
 
 const Statistics = () => {
   const data = [
@@ -55,9 +46,10 @@ const Statistics = () => {
   ];
   return (
     <>
-      <div className="w-5/6 mt-8 mx-auto flex justify-center">
-        <div>
-          <ComposedChart width={500} height={400} data={data}>
+    <div className="mt-8 flex justify-center">
+      <div style={{ minWidth: "350px" }}>
+        <ResponsiveContainer width="100%" height={400}>
+          <ComposedChart data={data}>
             <CartesianGrid stroke="#f5f5f5" />
             <XAxis dataKey="name" scale="band" />
             <YAxis />
@@ -66,12 +58,13 @@ const Statistics = () => {
             <Bar dataKey="mark" barSize={20} fill="#1b72e3" />
             <Line type="monotone" dataKey="result" stroke="#09e014" />
           </ComposedChart>
-        </div>
+        </ResponsiveContainer>
       </div>
-      <h2 className=" mt-2 text-3xl font-bold text-center">
-        Assignment <span className="text-red-500">Analytics</span>
-      </h2>
-    </>
+    </div>
+    <h2 className=" mt-2 text-3xl font-bold text-center">
+      Assignment <span className="text-red-500">Analytics</span>
+    </h2>
+  </>
   );
 };
 
