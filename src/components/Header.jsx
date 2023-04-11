@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Bars3BottomLeftIcon, XMarkIcon } from '@heroicons/react/24/solid'
+import { Bars3BottomLeftIcon, XMarkIcon } from '@heroicons/react/24/solid';
+
 
 const Header = () => {
     const [isOpenMenu, setIsMenuOpen] = useState(false);
     return (
-        <nav className='flex justify-between w-5/6 mx-auto mt-11'>
-            <Link className='font-bold text-5xl '>Job Point</Link>
+        <>
+            <nav className='flex justify-between w-5/6 mx-auto mt-11'>
+            <Link className='font-bold text-4xl '>Job Point</Link>
             <div onClick={()=> setIsMenuOpen(!isOpenMenu)} className='cursor-pointer md:hidden'>
                 {isOpenMenu?<XMarkIcon className='menu'></XMarkIcon>: <Bars3BottomLeftIcon className="menu"></Bars3BottomLeftIcon> }
                 
@@ -22,6 +24,7 @@ const Header = () => {
             </ul>
             
         </nav>
+        </>
     );
 };
 

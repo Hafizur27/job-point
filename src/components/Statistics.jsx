@@ -46,7 +46,7 @@ const Statistics = () => {
   ];
   return (
     <>
-    <div className="mt-8 flex justify-center">
+    <div className="mt-8 flex justify-center ">
       <div style={{ minWidth: "350px" }}>
         <ResponsiveContainer width="100%" height={400}>
           <ComposedChart data={data}>
