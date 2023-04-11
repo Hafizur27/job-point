@@ -1,0 +1,22 @@
+[
+  {
+    "logo": "https://img.freepik.com/free-vector/finance-linear-design_1284-35767.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=ais",
+    "title": "Account & Finance",
+    "vacancy": 100
+  },
+  {
+    "logo": "https://img.freepik.com/premium-photo/creative-mind-3d-illustration-with-light-bulb-generative-ai_549702-681.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=ais",
+    "title": "Creative Design",
+    "vacancy": 177
+  },
+  {
+    "logo": "https://img.freepik.com/premium-vector/product-manager-illustration-concept-white-background_701961-19.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=ais",
+    "title": "Marketing & Sales",
+    "vacancy": 88
+  },
+  {
+    "logo": "https://img.freepik.com/free-vector/engineers-team-discussing-issues-construction-site_74855-4786.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=ais",
+    "title": "Engineering Job",
+    "vacancy": 200
+  }
+]

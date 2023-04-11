@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "logo": "https://img.freepik.com/premium-photo/businessman-suit-holds-google-logo_150455-2594.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=sph",
+    "title": "Software Developer",
+    "owner": "Google",
+    "job": "Remote",
+    "location": "Dhaka",
+    "workTime": "Fulltime",
+    "salary": "$70,000 - $90,000",
+    "description": "We're seeking a marketing manager to oversee our marketing efforts.",
+    "responsibility": "Develop and implement marketing strategies to promote our products and services.",
+    "education": "Bachelor's degree in computer science or a related field",
+    "experiences": "3+ years of experience as a software developer",
+    "contact": {
+      "phone": "+1-55-123-457",
+      "email": "jobs@company.com"
+    }
+  },
+  {
+    "id": 2,
+    "logo": "https://img.freepik.com/premium-photo/3d-twitter-application-logo-background-twitter-social-media-platform_73903-698.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=sph",
+    "title": "Marketing Manager",
+    "owner": "Twitter",
+    "job": "Remote",
+    "location": "Tangail",
+    "workTime": "Fulltime",
+    "salary": "$80,000 - $100,000",
+    "description": "We're looking for an experienced software developer to join our team.",
+    "responsibility": "Develop and maintain software applications using various programming languages and tools.",
+    "education": "Bachelor's degree in marketing or a related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact": {
+      "phone": "+1-555-123-4567",
+      "email": "jobs@company.com"
+    }
+  },
+  {
+    "id": 3,
+    "logo": "https://img.freepik.com/premium-photo/3d-pile-facebook-logo-background-facebook-famous-social-media-platform_73903-704.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=sph",
+    "title": "Graphic Designer",
+    "owner": "Facebook",
+    "job": "Onsite",
+    "location": "Rajshahi",
+    "workTime": "Part-time",
+    "salary": "$25 - $35 per hour",
+    "description": "We're looking for a graphic designer to create visual assets for our brand.",
+    "responsibility": "Create designs for web, print, and social media platforms.",
+    "education": "Bachelor's degree in graphic design or a related field",
+    "experiences": "2+ years of experience as a graphic designer",
+    "contact": {
+      "phone": "+1-555-123-4567",
+      "email": "jobs@company.com"
+    }
+  },
+  {
+    "id": 4,
+    "logo": "https://img.freepik.com/premium-psd/3d-style-instagram-social-media-logo-set_204659-86.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=sph",
+    "title": "Sales Representative",
+    "owner": "Instagram",
+    "job": "Remote",
+    "location": "Khulna",
+    "workTime": "Fulltime",
+    "salary": "$60,000 - $80,000",
+    "description": "We're seeking a sales representative to join our team.",
+    "responsibility": "Identify and pursue new sales opportunities to meet and exceed revenue targets.",
+    "education": "High school diploma or equivalent",
+    "experiences": "1+ years of experience in sales",
+    "contact": {
+      "phone": "+1-555-123-4567",
+      "email": "jobs@company.com"
+    }
+  },
+  {
+    "id": 5,
+    "logo": "https://img.freepik.com/premium-vector/youtube-icon-3d-logo-square-social-media-logos-with-notification-icons-speech-bubble_248162-892.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=sph",
+    "title": "Accountant",
+    "owner": "Youtube",
+    "job": "Onsite",
+    "location": "Gazipur",
+    "workTime": "Fulltime",
+    "salary": "$50,000 - $70,000",
+    "description": "We're looking for an accountant to manage our financial records.",
+    "responsibility": "Maintain accurate financial records and prepare financial statements.",
+    "education": "Bachelor's degree in accounting or a related field",
+    "experiences": "3+ years of experience in accounting",
+    "contact": {
+      "phone": "+1-555-123-4567",
+      "email": "jobs@company.com"
+    }
+  },
+  {
+    "id": 6,
+    "logo": "https://img.freepik.com/premium-psd/3d-telegram-icon-collections-isolated_106244-1329.jpg?size=626&ext=jpg&ga=GA1.1.2144989144.1680256746&semt=sph",
+    "title": "Customer Service Representative",
+    "owner": "Telegram",
+    "job": "Remote",
+    "location": "Gopalganj",
+    "workTime": "Part-time",
+    "salary": "$15 - $20 per hour",
+    "description": "We're seeking a customer service representative to assist our customers.",
+    "responsibility": "Provide friendly and efficient customer service via phone, email, and chat.",
+    "education": "High school diploma or equivalent",
+    "experiences": "1+ years of experience in customer service",
+    "contact": {
+      "phone": "+1-555-123-4567",
+      "email": "jobs@company.com"
+    }
+  }
+]
