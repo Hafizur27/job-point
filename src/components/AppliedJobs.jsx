@@ -15,11 +15,26 @@ const AppliedJobs = () => {
       data.push(findJob);
     }
   }
+  const handelRemoteBtn = () =>{
+    if(data.length > 0){
+      const filterRemoteData = data.filter(fd => fd.job=="remote");
+      console.log(filterRemoteData)
+    }
+  }
   return (
     <div className="w-5/6 mx-auto">
+      <div className="mt-11 md:flex md:justify-end">
+        <button onClick={()=>handelRemoteBtn()} className="ms-3 text-cyan-400 border-cyan-400 border rounded px-2 py-1">
+          Remote
+        </button>
+        <button className="ms-3 text-cyan-400 border-cyan-400 border rounded px-2 py-1">
+          Onsite
+        </button>
+      </div>
+      
       <div>
         {data.length
-          ? data.map((storeData) => <StoreData key={storeData.id} storeData={storeData}></StoreData>)
+          ? data.map((storeData) => <StoreData key={storeData.id} storeData={storeData} handelRemoteBtn={handelRemoteBtn}></StoreData>)
           : "No one has applied for job "}
       </div>
     </div>

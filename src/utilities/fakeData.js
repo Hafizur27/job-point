@@ -25,19 +25,4 @@ const addToDb = id => {
     return appliedJob
   }
   
-  const removeFromDb = id => {
-    const storedJob = localStorage.getItem('shopping-cart')
-    if (storedJob) {
-      const appliedJob = JSON.parse(storedJob)
-      if (id in appliedJob) {
-        delete appliedJob[id]
-        localStorage.setItem('shopping-cart', JSON.stringify(appliedJob))
-      }
-    }
-  }
-  
-  const deleteShoppingCart = () => {
-    localStorage.removeItem('shopping-cart')
-  }
-  
-  export { addToDb, getStoredJob, removeFromDb, deleteShoppingCart }
+  export { addToDb, getStoredJob}
