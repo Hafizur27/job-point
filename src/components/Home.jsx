@@ -21,7 +21,7 @@ const Home = () => {
   const allJobsData = useLoaderData();
 
   return (
-    <div className="w-5/6 mx-auto ">
+    <div className="w-5/6 mx-auto">
       <div className="md:flex justify-between mt-11 gap-4">
         <div>
           <h1 className="text-5xl font-bold mb-6 w-5/6">
@@ -58,19 +58,19 @@ const Home = () => {
           need. Its your future
         </p>
       </div>
-      <div>
-        <div className="grid md:grid-cols-2 gap-3">
-          {allJobsData.slice(0, showAll ? 6 : 4).map((singleJob) => (
-            <SingleJob key={singleJob.id} singleJob={singleJob}></SingleJob>
-          ))}
-        </div>
-        <div className="flex justify-center my-6">
-          {!showAll && (
-            <button onClick={handelShowAll} className="btn-primary">
-              See All Jobs
-            </button>
-          )}
-        </div>
+
+      <div className="grid md:grid-cols-2 gap-3">
+        {allJobsData.slice(0, showAll ? 6 : 4).map((singleJob) => (
+          <SingleJob key={singleJob.id} singleJob={singleJob}></SingleJob>
+        ))}
+      </div>
+
+      <div className="flex justify-center my-6">
+        {!showAll && (
+          <button onClick={handelShowAll} className="btn-primary">
+            See All Jobs
+          </button>
+        )}
       </div>
     </div>
   );

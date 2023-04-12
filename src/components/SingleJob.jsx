@@ -7,7 +7,7 @@ const SingleJob = ({ singleJob, handelViewDetails }) => {
   
 
   return (
-    <div className="border-2 rounded-lg p-2 border-zinc-400 h-auto">
+    <div className="border-2 rounded-lg p-2 border-zinc-400 h-fit">
       <img className="w-1/3 h-1/3 rounded-md mb-4" src={logo} alt="" />
       <h3 className="font-semibold text-xl">{title}</h3>
       <h5 className="text-slate-400 font-semibold mb-2">{owner}</h5>
