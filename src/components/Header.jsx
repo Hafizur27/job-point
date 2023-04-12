@@ -14,7 +14,7 @@ const Header = () => {
                 
                 
             </div>
-            <ul className={`md:items-center md:space-x-8 md:flex text-lg font-medium md:static absolute ${isOpenMenu?'top-24':'-top-40'}`} >
+            <ul className={`md:items-center md:space-x-8 md:flex text-lg font-medium md:static absolute  ${isOpenMenu?'top-24':'-top-40'}`} >
                 <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to='/statistics'>Statistics</NavLink></li>
                 <li><NavLink to='/appliedJob'>Applied Job</NavLink></li>
