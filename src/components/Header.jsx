@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <>
             <nav className='flex justify-between w-5/6 mx-auto mt-11'>
-            <Link className='font-bold text-4xl '>Job Point</Link>
+            <Link to='/' className='font-bold text-4xl '>Job Point</Link>
             <div onClick={()=> setIsMenuOpen(!isOpenMenu)} className='cursor-pointer md:hidden'>
                 {isOpenMenu?<XMarkIcon className='menu'></XMarkIcon>: <Bars3BottomLeftIcon className="menu"></Bars3BottomLeftIcon> }
                 

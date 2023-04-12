@@ -1,5 +1,6 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import { CurrencyBangladeshiIcon, MapPinIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { addToDb } from "../utilities/fakeData";
 
 const JobDetails = () => {
   const { detailsId } = useParams();
@@ -19,7 +20,7 @@ const JobDetails = () => {
   } = singleData;
 
   const handelAppliedJob = (id) =>{
-    console.log(id)
+    addToDb(id)
   }
 
   return (
@@ -82,9 +83,9 @@ const JobDetails = () => {
             </h4>
           </div>
         </div>
-        <button onClick={()=>handelAppliedJob(id)} className="bg-cyan-400 text-white rounded-lg px-4 py-2 font-semibold text-xl w-full h-fit mt-2">
+        <Link to='/appliedJob'><button onClick={()=>handelAppliedJob(id)} className="bg-cyan-400 text-white rounded-lg px-4 py-2 font-semibold text-xl w-full h-fit mt-2">
           Apply Now
-        </button>
+        </button></Link>
       </div>
     </div>
   );
