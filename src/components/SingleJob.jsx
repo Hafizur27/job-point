@@ -1,8 +1,10 @@
 import React from "react";
 import { CurrencyBangladeshiIcon, MapPinIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
-const SingleJob = ({ singleJob }) => {
+const SingleJob = ({ singleJob, handelViewDetails }) => {
   const { id, logo, title, owner, job, location, workTime, salary } = singleJob;
+  
 
   return (
     <div className="border-2 rounded-lg p-2 border-zinc-400 h-fit">
@@ -23,9 +25,9 @@ const SingleJob = ({ singleJob }) => {
         <CurrencyBangladeshiIcon className="h-6 w-6 text-slate-400" />
         <p className="text-slate-400">{salary}</p>
       </div>
-      <button className="bg-cyan-400 rounded text-white py-1 px-2 ">
+      <Link to={`/details/${id}`}><button className="bg-cyan-400 rounded text-white py-1 px-2 ">
         View Details
-      </button>
+      </button></Link>
     </div>
   );
 };

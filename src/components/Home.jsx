@@ -15,8 +15,8 @@ const Home = () => {
         .then(data => setCategory(data))
     },[]);
 
-    const jobs = useLoaderData();
-    const fourJobsData = jobs.slice(0,4);
+    const fourJobsData = useLoaderData();
+
     return (
         <div className='w-5/6 mx-auto'>
             <div className='md:flex justify-between mt-11 gap-4'>
